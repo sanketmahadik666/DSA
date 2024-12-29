@@ -15,7 +15,7 @@ class Solution {
 public:
     int find_max_add(vector<int> &arr, int window) {
         int max_sum = INT_MIN;
-        for (int i = 0; i <= arr.size() - window; i++) {
+        for (int i = 0; i <= arr.size() - window; i++){
             int current_sum = accumulate(arr.begin() + i, arr.begin() + i + window, 0);
             max_sum = max(max_sum, current_sum);
         }

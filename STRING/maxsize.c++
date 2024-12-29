@@ -40,5 +40,10 @@ int main(){
    // fing_max_size(str);
     int result = find_max_size(str);
     cout << "The maximum size is: " << result << endl;
+
+
+
+
+    return 0;
     
 }
